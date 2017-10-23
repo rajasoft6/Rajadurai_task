@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+* .center {
+  text-align: center;
+}
+
+nav .nav-main {
+  height: 100px;
+  margin-top: 30px;
+}
+
+nav .nav-main .nav-left {
+  font-size: 18pt;
+  width: 25%;
+  margin-left: 20%;
+  display: inline-block;
+}
+
+nav .nav-main .nav-left .topic {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid brown;
+  border-width: 70%;
+}
+
+nav .nav-main .nav-left .slogan {
+  font-size: 10px;
+}
+
+nav .nav-main .nav-right {
+  width: 50%;
+  padding-top: 34px;
+  display: inline-block;
+}
+
+nav .nav-main .nav-right ul {
+  list-style: none;
+}
+
+nav .nav-main .nav-right ul li {
+  display: inline-block;
+}
+
+nav .nav-main .nav-right ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 10px;
+  font-size: 12px;
+}
+
+#img .center {
+  width: 1069px;
+  padding-left: 131px;
+}
+
+#our-services .our-services {
+  width: 32%;
+  margin: 0 auto;
+}
+
+#our-services .our-services h6 {
+  color: brown;
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+#our-services .our-services p {
+  font-size: 12px;
+  color: #909193;
+}
+
+#our-services .images {
+  width: 100%;
+  margin-top: 40px;
+}
+
+#our-services .images .first,
+#our-services .images .second {
+  width: 15%;
+  height: 450px;
+  margin: 0 auto;
+}
+
+#our-services .images .first .blue,
+#our-services .images .first .red,
+#our-services .images .second .blue,
+#our-services .images .second .red {
+  width: 310px;
+  height: 172px;
+  color: #fff;
+  padding: 30px 10px 0 30px;
+  position: relative;
+}
+
+#our-services .images .first .blue .fa,
+#our-services .images .first .red .fa,
+#our-services .images .second .blue .fa,
+#our-services .images .second .red .fa {
+  font-size: 25px;
+}
+
+#our-services .images .first .blue h3,
+#our-services .images .first .red h3,
+#our-services .images .second .blue h3,
+#our-services .images .second .red h3 {
+  font-weight: light;
+}
+
+#our-services .images .first .blue p,
+#our-services .images .first .red p,
+#our-services .images .second .blue p,
+#our-services .images .second .red p {
+  font-size: 12px;
+  line-height: 1;
+}
+
+#our-services .images .first .blue a,
+#our-services .images .first .red a,
+#our-services .images .second .blue a,
+#our-services .images .second .red a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 10px;
+}
+
+#our-services .images .first .blue a .fa,
+#our-services .images .first .red a .fa,
+#our-services .images .second .blue a .fa,
+#our-services .images .second .red a .fa {
+  font-size: 9px;
+}
+
+#our-services .images .first .blue,
+#our-services .images .second .blue {
+  background: #7667f8;
+  right: 122%;
+  bottom: 252px;
+}
+
+#our-services .images .first .red,
+#our-services .images .second .red {
+  background: #f44468;
+  left: 51%;
+  bottom: 252px;
+}
+
+#our-services .images .second {
+  width: 45%;
+  margin-bottom: -45px;
+}
+
+#more-services .more-services {
+  width: 32%;
+  margin: 0 auto;
+}
+
+#more-services .more-services p {
+  font-size: 12px;
+  color: #909193;
+}
+
+#more-services .more-services p .fa {
+  font-size: 32px;
+}
+
+#more-services .divisions {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#more-services .divisions .left,
+#more-services .divisions .center-div,
+#more-services .divisions .right {
+  float: left;
+  width: 33.333%;
+}
+
+#more-services .divisions .left .left1,
+#more-services .divisions .left .center1,
+#more-services .divisions .left .right1,
+#more-services .divisions .center-div .left1,
+#more-services .divisions .center-div .center1,
+#more-services .divisions .center-div .right1,
+#more-services .divisions .right .left1,
+#more-services .divisions .right .center1,
+#more-services .divisions .right .right1 {
+  width: 10%;
+}
+
+#more-services .divisions .left .left1 .fa,
+#more-services .divisions .left .center1 .fa,
+#more-services .divisions .left .right1 .fa,
+#more-services .divisions .center-div .left1 .fa,
+#more-services .divisions .center-div .center1 .fa,
+#more-services .divisions .center-div .right1 .fa,
+#more-services .divisions .right .left1 .fa,
+#more-services .divisions .right .center1 .fa,
+#more-services .divisions .right .right1 .fa {
+  font-size: 25px;
+}
+
+#more-services .divisions .left .left1 .fa-snowflake-o,
+#more-services .divisions .left .center1 .fa-snowflake-o,
+#more-services .divisions .left .right1 .fa-snowflake-o,
+#more-services .divisions .center-div .left1 .fa-snowflake-o,
+#more-services .divisions .center-div .center1 .fa-snowflake-o,
+#more-services .divisions .center-div .right1 .fa-snowflake-o,
+#more-services .divisions .right .left1 .fa-snowflake-o,
+#more-services .divisions .right .center1 .fa-snowflake-o,
+#more-services .divisions .right .right1 .fa-snowflake-o {
+  color: orange;
+  margin-left: -15px;
+  font-size: 25pt;
+}
+
+#more-services .divisions .left .left1 .fa-area-chart,
+#more-services .divisions .left .center1 .fa-area-chart,
+#more-services .divisions .left .right1 .fa-area-chart,
+#more-services .divisions .center-div .left1 .fa-area-chart,
+#more-services .divisions .center-div .center1 .fa-area-chart,
+#more-services .divisions .center-div .right1 .fa-area-chart,
+#more-services .divisions .right .left1 .fa-area-chart,
+#more-services .divisions .right .center1 .fa-area-chart,
+#more-services .divisions .right .right1 .fa-area-chart {
+  color: green;
+  margin-left: -30px;
+  font-size: 25pt;
+}
+
+#more-services .divisions .left .left1 .fa-server,
+#more-services .divisions .left .center1 .fa-server,
+#more-services .divisions .left .right1 .fa-server,
+#more-services .divisions .center-div .left1 .fa-server,
+#more-services .divisions .center-div .center1 .fa-server,
+#more-services .divisions .center-div .right1 .fa-server,
+#more-services .divisions .right .left1 .fa-server,
+#more-services .divisions .right .center1 .fa-server,
+#more-services .divisions .right .right1 .fa-server {
+  color: violet;
+  margin-left: -30px;
+  font-size: 25pt;
+}
+
+#more-services .divisions .left .left2,
+#more-services .divisions .left .center2,
+#more-services .divisions .left .right2,
+#more-services .divisions .center-div .left2,
+#more-services .divisions .center-div .center2,
+#more-services .divisions .center-div .right2,
+#more-services .divisions .right .left2,
+#more-services .divisions .right .center2,
+#more-services .divisions .right .right2 {
+  width: 90%;
+}
+
+#more-services .divisions .left .left1,
+#more-services .divisions .left .left2,
+#more-services .divisions .center-div .left1,
+#more-services .divisions .center-div .left2,
+#more-services .divisions .right .left1,
+#more-services .divisions .right .left2 {
+  float: left;
+}
+
+#more-services .divisions .left .center1,
+#more-services .divisions .left .center2,
+#more-services .divisions .center-div .center1,
+#more-services .divisions .center-div .center2,
+#more-services .divisions .right .center1,
+#more-services .divisions .right .center2 {
+  float: left;
+}
+
+#more-services .divisions .left .right1,
+#more-services .divisions .left .right2,
+#more-services .divisions .center-div .right1,
+#more-services .divisions .center-div .right2,
+#more-services .divisions .right .right1,
+#more-services .divisions .right .right2 {
+  float: left;
+}
+
+#more-services .services-btn {
+  width: 100%;
+  clear: both;
+  padding-top: 50px;
+}
+
+#more-services .services-btn .button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  background: linear-gradient(to right, red, yellow);
+  border-radius: 30px;
+}
